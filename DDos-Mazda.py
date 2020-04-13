@@ -2,14 +2,14 @@
 # -*- coding: utf-8 -*-
 
 
-
+import os
 from queue import Queue
 from optparse import OptionParser
 import time,sys,socket,threading,logging,urllib.request,random,colorama
 from colorama import Fore, Back, Style
 from colorama import init
 init()
-
+os.system("title DDos-Mazda-100")
 
 i = 0
 
